@@ -14,6 +14,7 @@ html{
     background-repeat:no-repeat;
     height: 100%;
     background-size: cover;
+    background-position: center;
     user-select: none;
     
 }
@@ -92,11 +93,11 @@ flex-direction: column;
     position: absolute;
     top: 70%;
     left: 50vw;
-    font-size: 1vw;
+    font-size: 20px;
     
     padding-top: 2vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding-left: 30%;
+    padding-right: 30%;
     transform: translate(-50%, -50%);
     background: rgba(0,0,0,.5);
     box-sizing: border-box;
@@ -114,12 +115,14 @@ flex-direction: column;
   
   .login-box .user-box {
     position: relative;
+    left:-100px;
   }
   
   .login-box .user-box input {
-    width: 100%;
+    width: 300%;
     padding: 0.5208333333333334vw 0;
-    font-size: 0.8333333333333334vw;
+    
+    font-size: 15px;
     color: #fff;
     margin-bottom: 1.5625vw;
     border: none;
@@ -132,7 +135,7 @@ flex-direction: column;
     top:0;
     left: 0;
     padding: 0.5208333333333334vw 0;
-    font-size: 0.8333333333333334vw;
+    font-size: 15px;
     color: #fff;
     pointer-events: none;
     transition: .5s;
@@ -140,10 +143,10 @@ flex-direction: column;
   
   .login-box .user-box input:focus ~ label,
   .login-box .user-box input:valid ~ label {
-    top: - 1.0416666666666667vw;
+    top: - 1px;
     left: 0;
     color: #03e9f4;
-    font-size: 0.625vw;
+    font-size: 0px;
   }
   
   .login-box form a {
@@ -151,7 +154,7 @@ flex-direction: column;
     display: inline-block;
     padding: 0.5208333333333334vw 1.0416666666666667vw;
     color: #03e9f4;
-    font-size: 0.8333333333333334vw;
+    font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
